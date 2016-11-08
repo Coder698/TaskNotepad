@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/icon_app"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp">
+            <TextView
+                android:id="@+id/appname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="任务记事本"
+                android:textSize="18sp"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="版本号"
+                android:textSize="18sp"
+                android:layout_below="@id/appname"
+                android:layout_margin="8dp"
+                android:textColor="@color/huise"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/huise"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="        任务记事本可以让大家很方便的记录自己任务或者计划，并且是以时间轴的方式显示，同时支持记录任务时的日期和时间功能。"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        支持自动定位获取天气预报的功能,拥有很好的UI设计,给你一种亲近大自然的感觉。"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        如果您在使用本软件的过程中有什么问题可以反馈给我们。"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        你也可以选择联系我们:QQ群——555974449"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                />
+            <TextView
+                android:id="@+id/tvGithub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="        本项目已开源"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            >
+
+        <TextView
+            android:id="@+id/laoliu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刘某人"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="和"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/adu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="杜鹏程"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联合出品"
+            android:textSize="16sp"
+            />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

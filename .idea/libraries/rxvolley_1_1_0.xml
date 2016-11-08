@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rxvolley-1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.kymjs.rxvolley/rxvolley/1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.kymjs.rxvolley/rxvolley/1.1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kymjs.rxvolley/rxvolley/1.1.0/9af2167960a222233fbe774865a6d57d549e9749/rxvolley-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

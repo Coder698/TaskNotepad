@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="2dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="30dp"
+        android:background="#E9F01D" />
+
+    <TextView
+        android:id="@+id/show_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_1"
+        android:layout_marginLeft="30dp"
+        android:text=""
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/view_1"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/timeline_green" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="2dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="30dp"
+        android:background="#E9F01D" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-20dp"
+        android:layout_toRightOf="@+id/image"
+        android:background="@drawable/timeline_content"
+        android:padding="5dp"
+        android:layout_marginRight="25dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="03:22"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/time"
+            android:text="由【江苏苏州中转部】发往【江苏苏州公司】"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+    <CheckBox
+        android:id="@+id/mCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:focusable="false"
+        />
+    <TextView
+        android:id="@+id/day"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_2"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+        android:text="01月13日"
+        android:background="@mipmap/timeline_month_day"
+        android:textSize="8sp" />
+
+    <View
+        android:id="@+id/view_5"
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:layout_alignLeft="@+id/view_2"
+        android:layout_below="@+id/day"
+        android:background="#E9F01D" />
+
+</RelativeLayout>

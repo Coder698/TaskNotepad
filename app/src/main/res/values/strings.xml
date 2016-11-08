@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">任务记事本</string>
+    <string name="no_email_app_tip">请先安装邮件应用并设置账户，或直接发送邮件至dpc_206@163.com。</string>
+    <string name="share">分享到</string>
+
+    <string name="network_connection_error">网络连接失败</string>
+    <string name="is_go_netwotk_setting">是否立即设置网络？</string>
+    <string name="intent_setting">前往设置</string>
+    <string name="finish">退出</string>
+</resources>
