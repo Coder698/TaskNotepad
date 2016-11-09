@@ -34,7 +34,7 @@
 
 ##六、Developers
 
-- 1.次项目是有[程序员刘某人](https://github.com/LiuGuiLinAndroid)和我共同合作开发完成
+- 1.此项目是由[程序员刘某人](https://github.com/LiuGuiLinAndroid)和我共同合作开发完成
 - 2.将此项目开源，仅供大家学习使用。
 
 ##七、联系我们
